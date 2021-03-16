@@ -1,0 +1,174 @@
+body{
+	background-color:#D9D9DB;
+}
+body{
+	font-family: none;
+	font-size:none;
+}
+
+*{margin:0; padding:0;}
+h2{
+	font-size: 28px;
+	  text-shadow: 7px -5px 1px #e0d1bc;
+	margin-left:10px;}
+
+#wrapper{
+	width:960px;
+	margin:20px auto;
+	background-color:#D9D9DB;
+
+}
+
+#header{
+	background-color:#e6c93c;
+	 padding:12px;
+	 border-bottom:  3px solid #3b3d02;
+}
+
+#header h2{
+	color:#0f307d;
+	font-family: 'Fredoka One', cursive;
+	text-align: left;
+	margin: 16px 15px 14px 0px;
+}
+#header p{
+	color:#85075f;
+}
+
+#manu ul li:last-child{
+	border-right:none;
+}
+#manu{
+	height:39px;
+	background-color:#f4f7a3;
+
+}
+#manu ul{
+		list-style-type:none;
+		z-index:99999;
+	
+}
+#manu ul li{
+
+	border-right:1px solid blue;
+	float:left;
+	position:relative;
+}
+#manu ul li a{
+		display:block;
+		text-decoration:none;
+		padding:10px 20px;
+		display:block;
+		transition:0.5s;
+}
+#manu ul li a:hover{
+	background-color:#f55bf2;
+	color:black;
+	font-family: 'Fredoka One', cursive;	
+}
+
+
+#manu ul li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-9999px;	
+}
+#manu ul li:hover ul{
+	left:0px;
+	background-color:#d4e02b;
+}
+#manu ul li ul li{
+	border-right:none;
+	border-left:none;
+	float:none;
+	border-bottom: 1px solid #3b3d02 ;
+
+	width:130px;
+}
+
+#mainwrapper{
+	background-color:#E0E0DF;
+	padding:10px;
+	overflow:hidden;
+	float:left;
+}
+#content{
+	width:620px;
+	margin-right:40px;
+	float:left;
+}
+#content h2{
+	color:blue;
+	font-family:arial;
+	width:bold;
+	margin:0 8px;
+	font-size:19px;
+}
+#content p{
+	text-align:justify;
+	padding:10px;
+	margin:0;
+	display:block;
+}
+#content img{
+	width:400px;
+	height:300ppx;
+	margin-top:8px;
+
+	
+}
+#content figure{
+		text-align:center;
+		background-color:#d3d36a;
+}
+#content figure figcaption{
+		font-family: 'Fredoka One', cursive;	
+		font-weight:bold;
+		
+}
+#content blockquote{
+	background:#e1cafc;
+	margin:50px;
+	margin-left:30px;
+}
+
+
+#sideber{
+	width:280px;
+	float:left;
+}
+
+
+#sideber h2 {
+	font-family: 'Fredoka One', cursive;	
+	color:blue;
+	margin-right:20px;
+}
+#sideber li{
+	list-style-type:circle;
+}
+#sideber li a{
+	text-decoration:none;
+	padding:10px;
+	color:#c99400;
+}
+#sideber li a {
+	    line-height: 24px;
+}
+
+#footer{
+	padding:10px;
+	text-align:center;
+	background-color:#acfae4;
+	color:#0b04d1;
+}
+#footer p{
+font-size:12px;	
+}
+
+
+artical{
+	margin:0;
+	padding:0;
+}
