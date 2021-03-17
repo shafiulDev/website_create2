@@ -1,0 +1,33 @@
+
+input[type=text]{
+	color:blue;
+	
+}
+input[type=submit]{
+	color:blue;
+	
+}
+#main_form{
+	width=:100%;
+	background:#5a6dfa;
+	
+}
+#iner_form{
+	width:960px;
+	margin:0 auto;
+	background-color:#a5aef0;
+	
+}
+p{
+		background:red;
+	}
+
+a{
+	border:1px solid black;
+	background:white;
+	text-decoration:none;
+}
+a:hover{
+	background:green;
+	color:white;
+}
